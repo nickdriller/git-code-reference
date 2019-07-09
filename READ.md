@@ -20,6 +20,15 @@ Crea un carpeta oculta con el metadata necesario para seguir el rastro en los ca
 `git clone <url-repositorio>`  
 Clona todos los archivos y los 'commits' de forma local  
 
+### Seguir rastro de los cambios  
+`git add <nombre-archivo>`  
+Agrega el archivo especificado al 'stage area'  
+
+`git add .`  
+Agrega todos los archivos  
+
+`git rm --cached <nombre-archivo>`  
+Remueve el archivo del 'stage area' (No elimina el archivo)  
 
 
 
